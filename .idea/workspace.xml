@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e69efd8-435a-4f24-94da-8ab1b34524ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/cluster.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/group-vars/all/aws-vars.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/group-vars/all/namespaces.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/inventories/production-cluster/group-vars/override/aws-auth.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/inventories/production-cluster/group-vars/override/namespaces.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/inventories/staging-cluster/hosts.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/tasks/aws-auth.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/tasks/namespaces.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/templates/auth/aws-auth.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/templates/namespaces/namespaces.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform.tfstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/clusters-vpc/.terraform/modules/modules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/clusters-vpc/.terraform/providers/registry.terraform.io/hashicorp/aws/5.23.1/linux_amd64/terraform-provider-aws_v5.23.1_x5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/clusters-vpc/.terraform/terraform.tfstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/hotmart-clusters/.terraform/environment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/hotmart-clusters/.terraform/modules/modules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/hotmart-clusters/.terraform/providers/registry.terraform.io/hashicorp/aws/5.23.1/linux_amd64/terraform-provider-aws_v5.23.1_x5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/hotmart-clusters/.terraform/providers/registry.terraform.io/hashicorp/aws/5.24.0/linux_amd64/terraform-provider-aws_v5.24.0_x5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/hotmart-clusters/.terraform/terraform.tfstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/shared-state/.terraform/providers/registry.terraform.io/hashicorp/aws/5.23.1/linux_amd64/terraform-provider-aws_v5.23.1_x5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/hotmart-clusters/terraform.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/hotmart-clusters/terraform.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/shared-state/terraform.tfstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/terraform.tfstate.backup" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/shared-state/terraform.tfstate.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/tf-state-s3.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/shared-state/tf-state-s3.tf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/lib/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;arn:aws:eks:sa-east-1:740781822140:cluster/hotmat-cluster&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="arn:aws:eks:sa-east-1:740781822140:cluster/hotmat-cluster" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2XfSAvWgXMh5pWXres3YSW7xIkQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/saymon/Backup/Portifolio/Hotmart-DevOps-Challenge/ansible/inventories",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ansible/inventories" />
+      <recent name="$PROJECT_DIR$/ansible/inventories/staging" />
+      <recent name="$PROJECT_DIR$/ansible/inventories/production" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ansible/roles" />
+      <recent name="$PROJECT_DIR$/ansible/inventories/staging" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.j2" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cfg" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

@@ -4,14 +4,14 @@ resource "aws_s3_bucket" "clusters_tf_state_s3_bucket" {
 		prevent_destroy = true
 	}
 	tags = {
-		Name 			= "${var.clusters_name_prefix} s3 Remote Terraform State Store"
+		Name      = "${var.clusters_name_prefix} s3 Remote Terraform State Store"
 		ManagedBy = "terraform"
 	}
 }
 
 
 resource "aws_s3_bucket" "clusters_vpc_tf_state_s3_bucket" {
-	bucket = "${var.clusters_name_prefix}-vpc-terraform-state"
+  bucket = "${var.clusters_name_prefix}-vpc-terraform-state"
 	lifecycle {
 		prevent_destroy = true
 	}
