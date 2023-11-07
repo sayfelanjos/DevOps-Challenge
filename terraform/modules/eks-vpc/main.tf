@@ -1,6 +1,7 @@
 resource "aws_vpc" "eks_vpc" {
   cidr_block           = var.eks_vpc_block
   enable_dns_hostnames = true
+  enable_dns_support = true
   tags = merge(
     var.common_tags,
     {
@@ -26,6 +27,8 @@ resource "aws_subnet" "eks_private_subnets" {
     var.common_tags,
     {
       Name = "eks-private-${var.clusters_name_prefix}-${data.aws_availability_zones.availability_zones.names[count.index]}"
+      "k8s.io/cluster-autoscaler/${var.clusters_name_prefix}-default" = "owned"
+      "k8s.io/cluster-autoscaler/enabled" = "true"
     },
   )
   lifecycle {
@@ -61,11 +64,13 @@ resource "aws_subnet" "eks_public_subnets" {
   cidr_block        = element(var.eks_public_subnets_prefix_list, count.index)
   vpc_id            = aws_vpc.eks_vpc.id
   availability_zone = data.aws_availability_zones.availability_zones.names[count.index]
-
+  map_public_ip_on_launch = true
   tags = merge(
     var.common_tags,
     {
       "Name" = "eks-public-${var.clusters_name_prefix}-${data.aws_availability_zones.availability_zones.names[count.index]}"
+      "k8s.io/cluster-autoscaler/${var.clusters_name_prefix}-default" = "owned"
+      "k8s.io/cluster-autoscaler/enabled" = "true"
     },
   )
 

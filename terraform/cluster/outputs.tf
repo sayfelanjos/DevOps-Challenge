@@ -11,17 +11,17 @@ output "cluster_version" {
 }
 
 output "cluster_api" {
-  value = module.hotmart-test-clusters.cluster_api
+  value = module.devops_kubernetes_challenge.cluster_api
 }
 
 output "cluster_tag" {
-  value = module.hotmart-test-clusters.cluster_tag
+  value = module.devops_kubernetes_challenge.cluster_tag
 }
 
 output "worker_iam_role_arn" {
-  value = module.hotmart-test-clusters.worker_iam_role_arn
+  value = module.devops_kubernetes_challenge.worker_iam_role_arn
 }
 
 output "authconfig" {
-  value = module.hotmart-test-clusters.authconfig
+  value = module.devops_kubernetes_challenge.authconfig
 }

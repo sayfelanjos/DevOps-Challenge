@@ -1,4 +1,4 @@
-module "hotmart-test-clusters" {
+module "devops_kubernetes_challenge" {
   source                = "../modules/cluster"
   vpc_id                = var.vpc_id
   public_subnets        = var.public_subnet_ids

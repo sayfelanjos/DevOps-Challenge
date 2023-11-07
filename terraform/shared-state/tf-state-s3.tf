@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "clusters_tf_state_s3_bucket" {
 	bucket = "${var.clusters_name_prefix}-terraform-state"
 	lifecycle {
-		prevent_destroy = true
+		prevent_destroy = false
 	}
 	tags = {
 		Name      = "${var.clusters_name_prefix} s3 Remote Terraform State Store"
@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "clusters_tf_state_s3_bucket" {
 resource "aws_s3_bucket" "clusters_vpc_tf_state_s3_bucket" {
   bucket = "${var.clusters_name_prefix}-vpc-terraform-state"
 	lifecycle {
-		prevent_destroy = true
+		prevent_destroy = false
 	}
 	tags = {
 		Name 			= "${var.clusters_name_prefix} s3 Remote Terraform State Store"
