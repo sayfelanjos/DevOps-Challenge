@@ -1,3 +1,3 @@
 namespaces_list:
-  - name: clusters-namespace
-    owner: clusters-admin
+  - name: default-namespace
+    owner: saymon

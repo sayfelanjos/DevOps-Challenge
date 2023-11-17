@@ -4,5 +4,5 @@ map_roles:
   system_masters: []
 map_users:
   system_masters:
-    - arn: "arn:aws:iam::111111111111:user/admin"
-      name: "admin"
+    - arn: "arn:aws:iam::740781822140:user/saymon"
+      name: "saymon"

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd22fcde-0e0b-4366-86f5-5de81ac76876" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DevOps-Challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DevOps-Challenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/cluster.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/cluster.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/group_vars/all/aws-auth.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/group_vars/all/aws-auth.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/group_vars/all/cni.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/group_vars/all/cni.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/group_vars/all/core-dns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/group_vars/all/core-dns.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/group_vars/all/external-dns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/group_vars/all/external-dns.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/group_vars/all/ingress-nginx.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/group_vars/all/ingress-nginx.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/group_vars/all/kube-proxy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/group_vars/all/kube-proxy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/inventories/dev/group_vars/override/aws-auth.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventories/dev/group_vars/override/aws-auth.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/inventories/dev/group_vars/override/namespaces.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inventories/dev/group_vars/override/namespaces.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/templates/cni/amazon-k8s-cni.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/templates/cni/amazon-k8s-cni.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/templates/core-dns/core-dns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/templates/core-dns/core-dns.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/templates/external-dns/external-dns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/templates/external-dns/external-dns.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/templates/ingress-nginx/ingress-nginx.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/templates/ingress-nginx/ingress-nginx.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster-vpc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster-vpc/config.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster-vpc/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster-vpc/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster-vpc/terraform.tfvars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster-vpc/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster/authconfig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster/bootstrap.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster/config.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster/terraform.tfvars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cluster/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/cluster/eks-control-plane.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/cluster/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/cluster/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/cluster/workers.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-control-plane/iam.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-control-plane/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-control-plane/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-control-plane/security-groups.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-control-plane/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-vpc/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-vpc/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-vpc/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/authconfig.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/autoscaler_policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/cluster-autoscaler-autodiscover.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/iam.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/security-groups.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/user-data.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/modules/eks-workers/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/.terraform.lock.hcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/config.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/terraform.tfstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/terraform.tfstate.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/terraform.tfvars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/tf-state-dynamodb.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/tf-state-s3.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/shared-state/variables.tf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AWS CloudFormation Template (YAML)" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/lib/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ansible/templates/auth/aws-auth.yaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;arn:aws:eks:sa-east-1:740781822140:cluster/devops-kubernetes-challenge-default&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="arn:aws:eks:sa-east-1:740781822140:cluster/devops-kubernetes-challenge-default" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2XwSS7bMoOkQtHv860xIdDLLEfM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/saymon/Backup/Portifolio/DevOps-Challenge",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ansible/templates/auth" />
+      <recent name="$PROJECT_DIR$/ansible/templates/pod-security-policy" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

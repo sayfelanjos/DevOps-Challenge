@@ -15,5 +15,25 @@
   tasks:
     - import_tasks: tasks/aws-auth.yaml
       tags: aws-auth
+    - import_tasks: tasks/authz.yaml
+      tags: authz
+#    - import_tasks: tasks/psp.yaml
+#      tags: psp
     - import_tasks: tasks/namespaces.yaml
       tags: namespaces
+    - import_tasks: tasks/cni.yaml
+      tags: cni
+#    - import_tasks: tasks/kube-proxy.yaml
+#      tags: kube-proxy
+#    - import_tasks: tasks/core-dns.yaml
+#      tags: core-dns
+#    - import_tasks: tasks/external-dns.yaml
+#      tags: external-dns
+    - import_tasks: tasks/ingress-nginx.yaml
+      tags: ingress-nginx
+#    - import_tasks: tasks/kube2iam.yaml
+#      tags: kube2iam
+#    - import_tasks: tasks/cert-manager.yaml
+#      tags: cert-manager
+#    - import_tasks: tasks/sealed-secrets.yaml
+#      tags: sealed-secrets

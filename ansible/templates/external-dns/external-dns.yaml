@@ -4,7 +4,7 @@ metadata:
   name: external-dns
   namespace: kube-system
 ---
-apiVersion: rbac.authorization.k8s.io/v1beta1
+apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   name: external-dns
@@ -20,7 +20,7 @@ rules:
     resources: ["nodes"]
     verbs: ["list","watch"]
 ---
-apiVersion: rbac.authorization.k8s.io/v1beta1
+apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
   name: external-dns-viewer
@@ -28,10 +28,10 @@ metadata:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: external-dns
+  name: external-dns.yaml
 subjects:
   - kind: ServiceAccount
-    name: external-dns
+    name: external-dns.yaml
     namespace: kube-system
 ---
 apiVersion: apps/v1
@@ -50,6 +50,7 @@ spec:
     metadata:
       labels:
         app: external-dns
+        app.kubernetes.io/name: external-dns
     spec:
       serviceAccountName: external-dns
       containers:

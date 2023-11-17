@@ -2,8 +2,8 @@ map_roles:
   workers_roles:
     - "{{ worker_iam_role_arn }}"
   system_masters:
-    - "arn:aws:iam::111111111111:role/admin-role"
+    - "arn:aws:iam::740781822140:role/eksctl-devops-kubernetes-challenge-default-ad-Role1-3hzGtMUpu41E"
 map_users:
   system_masters:
-    - arn: "arn:aws:iam::111111111111:user/clusters-admin"
-      name: "clusters.admin"
+    - arn: "arn:aws:iam::740781822140:user/saymon"
+      name: "saymon"
